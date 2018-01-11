@@ -1,3 +1,7 @@
+
+http://mp.weixin.qq.com/s/7ffZB0_RB90i5c60bEYRWg
+有个坑，并不是直接运行release就签名好了，需要自行签名，可以通过AS Build->Build APK，然后选择项目下的签名，密码在build.gradle里面，还需要填写别名，值得注意的是，作者配置文件中的别名：bikeup是错的！正确的是：biubike。
+
 # BiuBike
   
  详情可参考博客：http://blog.csdn.net/gaolei1201/article/details/60876811  
